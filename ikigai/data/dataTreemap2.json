@@ -1,0 +1,58 @@
+{"children":
+	[{"name":"Суши","children":
+		[{"name":"С лососем","value":134,"colname":"level3"},
+		{"name":"С тигровой креветкой","value":69,"colname":"level3"},
+		{"name":"С тунцом","value":66,"colname":"level3"},
+		{"name":"С угрём","value":59,"colname":"level3"},
+		{"name":"С лососем и авокадо","value":57,"colname":"level3"},
+		{"name":"С угрём и авокадо","value":35,"colname":"level3"},
+		{"name":"С авокадо","value":25,"colname":"level3"}],
+	"colname":"level2"},
+	
+	{"name":"Сеты","children":
+		[{"name":"Хот спот","value":285,"colname":"level3"},
+		{"name":"Икигай сет","value":208,"colname":"level3"},
+		{"name":"We are family","value":193,"colname":"level3"},
+		{"name":"Френдс","value":171,"colname":"level3"},
+		{"name":"Спорт","value":25,"colname":"level3"}],
+	"colname":"level2"},
+	
+	{"name":"Роллы","children":
+		[{"name":"Ролл с лососем","value":395,"colname":"level3"},
+		{"name":"Темпура с острым лососем","value":235,"colname":"level3"},
+		{"name":"Опаленный ролл с тунцом","value":222,"colname":"level3"},
+		{"name":"Ролл с угрём и манго соусом","value":216,"colname":"level3"},
+		{"name":"Запеченный ролл","value":198,"colname":"level3"},
+		{"name":"Ролл с угрем и креветкой","value":195,"colname":"level3"},
+		{"name":"С лососем и карамелью","value":182,"colname":"level3"},
+		{"name":"Опаленный ролл с угрём","value":148,"colname":"level3"},
+		{"name":"Темпура с угрём","value":142,"colname":"level3"},
+		{"name":"Ролл с крабом","value":125,"colname":"level3"},
+		{"name":"Сашими ролл","value":50,"colname":"level3"}],
+	"colname":"level2"},
+	
+	{"name":"Боулы","children":
+		[{"name":"Боул с лососем","value":147,"colname":"level3"},
+		{"name":"Боул с тунцом","value":122,"colname":"level3"},
+		{"name":"Боул с курицей","value":77,"colname":"level3"},
+		{"name":"Веган боул","value":56,"colname":"level3"}],
+	"colname":"level2"},
+	
+	{"name":"Маки","children":
+		[{"name":"С лососем","value":153,"colname":"level3"},
+		{"name":"С тунцом","value":103,"colname":"level3"},
+		{"name":"С тигровой креветкой","value":92,"colname":"level3"},
+		{"name":"С огурцом","value":80,"colname":"level3"},
+		{"name":"С авокадо","value":71,"colname":"level3"},
+		{"name":"С угрём","value":25,"colname":"level3"}],
+	"colname":"level2"},
+
+	{"name":"Рамены","children":
+		[{"name":"Мисо рамен","value":172,"colname":"level3"},
+		{"name":"Рамен с морепродуктами","value":134,"colname":"level3"},
+		{"name":"Рамен со свининой","value":107,"colname":"level3"},
+		{"name":"Кимчи","value":106,"colname":"level3"},
+		{"name":"Острый кунжутно-ореховый","value":79,"colname":"level3"},
+		{"name":"Томатный мисо рамен","value":67,"colname":"level3"},
+		{"name":"Вегетарианский кунжутно-ореховый","value":66,"colname":"level3"}],
+	"colname":"level2"}]}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>marekku – Graphic Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="/main.css">
+  	<script src="https://d3js.org/d3.v4.js"></script>
+	<script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
+	<script> $(function(){$("header").load("/header.html");});</script>
+  </head>
+
+  <body>
+  	<header></header>
+
+	<content>
+		<div class="tab-buttons">
+			<a href="/ikigai/" class="btn tab-item">Main</a>
+			<a href="/ikigai/progress" class="btn tab-item active">Progress</a>
+			<a href="/ikigai/heatmap" class="btn tab-item">Heatmap</a>
+			<a href="/ikigai/treemap" class="btn tab-item">Positions</a>
+			<a href="/ikigai/map" class="btn tab-item">Map</a>
+		</div>
+
+		<h2>Ikigai</h2>
+		<div id="chartDaily" class="graph col-3"></div>
+		<div>Curabitur ut tristique et ornare nec malesuada. Imperdiet sit ut faucibus vitae ornare vestibulum hendrerit. Pulvinar ut id non condimentum vel, arcu urna. Magna augue morbi et ultrices sodales molestie gravida sed. Vulputate quisque nulla eget nibh imperdiet cras diam. Blandit cursus posuere tempus, sem enim, vehicula facilisi. Sollicitudin feugiat aliquet augue amet neque.</div>
+	</content>
+	
+	<script type='text/javascript' src="chartDaily.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>marekku – Graphic Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="/main.css">
+  	<script src="https://d3js.org/d3.v4.js"></script>
+	<script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
+	<script> $(function(){$("header").load("/header.html");});</script>
+  </head>
+
+  <body>
+  	<header></header>
+
+	<content>
+		<div class="tab-buttons">
+			<a href="/ikigai/" class="btn tab-item">Main</a>
+			<a href="/ikigai/progress" class="btn tab-item">Progress</a>
+			<a href="/ikigai/heatmap" class="btn tab-item">Heatmap</a>
+			<a href="/ikigai/treemap" class="btn tab-item active">Positions</a>
+			<a href="/ikigai/map" class="btn tab-item">Map</a>
+		</div>
+
+		<h2>Ikigai</h2>
+		<div id="chartTreemap" class="graph col-3"></div>
+	</content>
+	
+	<script type='text/javascript' src="chartTreemap2.js"></script>
+  </body>
+</html>
