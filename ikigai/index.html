@@ -16,15 +16,17 @@
 
 		<content>
 			<div class="tab-buttons">
-				<a href="/ikigai/" class="btn tab-item active">Main</a>
-				<a href="/ikigai/progress" class="btn tab-item">Progress</a>
+				<a href="/ikigai/" class="btn tab-item active">Overview</a>
 				<a href="/ikigai/heatmap" class="btn tab-item">heatmap</a>
-			<!--	<a href="/ikigai/treemap" class="btn tab-item">Positions</a> -->
 				<a href="/ikigai/map" class="btn tab-item">map</a>
-				<a href="/ikigai/lines" class="btn tab-item">lines</a>
 			</div>
 
 			<h2>Ikigai</h2>
+
+			<div id="chartDaily" class="graph col-3"></div>
+			<div>Curabitur ut tristique et ornare nec malesuada. Imperdiet sit ut faucibus vitae ornare vestibulum hendrerit. Pulvinar ut id non condimentum vel, arcu urna. Magna augue morbi et ultrices sodales molestie gravida sed. Vulputate quisque nulla eget nibh imperdiet cras diam. Blandit cursus posuere tempus, sem enim, vehicula facilisi. Sollicitudin feugiat aliquet augue amet neque.</div>
+
+			<h2 style="margin-top: 64px; margin-bottom: 32px">Daily Tracking</h2>
 			
 			<div id="sparklineOrders" class="micro graph"></div>
 			<div id="sparklineMoney" class="micro graph"></div>
@@ -32,5 +34,6 @@
 
 		<script type='text/javascript' src="js/sparklineOrders.js"></script>
 		<script type='text/javascript' src="js/sparklineMoney.js"></script>
+		<script type='text/javascript' src="js/chartDaily.js"></script>
 	</body>
 </html>

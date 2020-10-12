@@ -13,7 +13,7 @@ let chartDaily = d3.select("#chartDaily")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-d3.csv("orders.csv", function(data) {
+d3.csv("/ikigai/data/orders.csv", function(data) {
 
 // X axis
 let x = d3.scaleBand()
