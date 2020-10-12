@@ -18,8 +18,7 @@ d3.csv("orders.csv", function(data) {
 // X axis
 let x = d3.scaleBand()
   .range([ 0, width ])
-  .domain(data.map(function(d) { return d.Date; }))
-  .padding(0.2);
+  .domain(data.map(function(d) { return d.Date; }));
 
 let xAxis = d3.axisBottom(x)
 
@@ -51,9 +50,9 @@ chartDaily.selectAll("mybar")
   .append("rect")
     .attr("x", function(d) { return x(d.Date); })
     .attr("y", function(d) { return y(d.Orders); })
-    .attr("width", x.bandwidth())
+    .attr("width", x.bandwidth() + 0.5) // Плюсуем немного, чтобы нивелировать отступы даже при нулевом паддинге
     .attr("height", function(d) { return height - y(d.Orders); })
-    .style("fill", "e3533f")
+    .style("fill", "404040")
 
 chartDaily.append("text")
   .attr("class", "titleYaxis")
@@ -66,7 +65,7 @@ chartDaily.append("text")
   .attr("x", width)
   .attr("y", height + 20)
   .attr("text-anchor", "end")
-  .text("Дни")
+  .text("Days")
 
 })
 
