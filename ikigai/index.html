@@ -9,17 +9,15 @@
 		<script src="https://d3js.org/d3.v4.js"></script>
 		<script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
 		<script> $(function(){$("header").load("/header.html");});</script>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css" rel="stylesheet" />
 	</head>
 
 	<body>
 		<header></header>
 
 		<content>
-			<div class="tab-buttons">
-				<a href="/ikigai/" class="btn tab-item active">Overview</a>
-				<a href="/ikigai/heatmap" class="btn tab-item">heatmap</a>
-				<a href="/ikigai/map" class="btn tab-item">map</a>
-			</div>
+			<div class="tab-buttons"></div>
 
 			<h2>Ikigai</h2>
 
@@ -30,10 +28,23 @@
 			
 			<div id="sparklineOrders" class="micro graph"></div>
 			<div id="sparklineMoney" class="micro graph"></div>
+			<div></div>
+			<div></div>
+
+			<h2 style="margin-top: 64px; margin-bottom: 32px">Average orders</h2>
+			<div id="chartHeatmap" class="graph col-3"></div>
+			<div>Среднее количество заказов в&nbsp;течение часа. Отсчёт от 27&nbsp;марта&nbsp;— дня расширения зоны&nbsp;доставки.</div>
+
+			<h2 style="margin-top: 64px; margin-bottom: 32px">Orders spreading</h2>
+			<div id="chartMap" class="graph col-4"></div>
+
+			<footer></footer>
 		</content>
 
 		<script type='text/javascript' src="js/sparklineOrders.js"></script>
 		<script type='text/javascript' src="js/sparklineMoney.js"></script>
 		<script type='text/javascript' src="js/chartDaily.js"></script>
+		<script type='text/javascript' src="js/chartHeatmap.js"></script>
+		<script type='text/javascript' src="js/chartMap.js"></script>
 	</body>
 </html>

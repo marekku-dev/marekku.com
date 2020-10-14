@@ -10,16 +10,24 @@ body {
 }
 
 header {
+  position: fixed;
   width: 200px;
   margin: 0 40px 0 0;
   padding: 5px;
 }
 
 content {
+  margin-left: 250px;
   display: grid;
   grid-template-columns: 240px 240px 240px 240px;
   grid-template-rows: 47px 75px auto;
   column-gap: 40px;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 120px;
 }
 
 article {

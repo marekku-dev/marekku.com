@@ -48,7 +48,7 @@ let myColor = d3.scaleLinear()
   .range(["white", "#D3604C"])
   .domain([0,10])
 
-d3.csv("dataHeatmap.csv", function(data) {
+d3.csv("/ikigai/data/dataHeatmap.csv", function(data) {
 
   // tooltip
   /* var tooltip = d3.select("#heatmap")
