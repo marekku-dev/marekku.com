@@ -296,6 +296,7 @@ a:hover {
 
 article {
   position: relative;
+  margin-top: 50px;
   margin-left: 40px;
   max-width: 240px;
 }
@@ -304,11 +305,12 @@ figure {
   position: -webkit-sticky;
   position: sticky;
   width: 800px;
+  height: 90vh;
   margin: 0;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-background-color: #FAFAFA;
+  background-color: #FAFAFA;
   z-index: 0;
 }
 
@@ -332,46 +334,3 @@ figure p {
 .step:last-child {
   margin-bottom: 500px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

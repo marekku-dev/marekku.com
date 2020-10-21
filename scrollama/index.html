@@ -8,40 +8,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../main.css">
 	<script src="https://d3js.org/d3.v4.js"></script>
+
+    <script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
+    <script> $(function(){$("header").load("/header.html");});</script>
   </head>
 
   <body>
-  	<header>
-		<div class="logo">
-			<a href="http://marekku.com" class="linkMain">Mark Kuzmin</a>
-		</div>
+  	<header></header>
 
-		<div class="menuProjects">
-			<p class="menuProjectTitle">Dataviz</p>
-			<a href="/ikigai" class="linkProject">Ikigai</a><br>
-        <a href="/makeovermonday" class="linkProject">makeovermonday</a>
-		</div>
-
-		<div class="menuProjects">
-			<p class="menuProjectTitle">Web</p>
-			<a href="#" class="linkProject">In progress</a>
-		</div>
-
-		<div class="menuProjects">
-			<p class="menuProjectTitle">Print</p>
-			<a href="#" class="linkProject">In progress</a>
-		</div>
-
-		<div class="linksOuter">
-			<a href="https://facebook.com/mark.kuzmin" target="_blank">facebook</a><br>
-			<a href="https://www.behance.net/mark_kuzmin" target="_blank">behance</a><br>
-			<a href="#" target="_blank">twitter</a>
-		</div>
-	</header>
-
-    <main style="width: 1280px">
+    <main style="width: 1080px; margin-left: 240px">
       <section id="scrolly">
         <article>
+          <h2>Scrollama</h2>
+
           <div class="step" data-step="1">
             <p>Curabitur ut tristique et ornare nec malesuada. Imperdiet sit ut faucibus vitae ornare vestibulum hendrerit. Pulvinar ut id non condimentum vel, arcu urna. Magna augue morbi et ultrices sodales molestie gravida sed. Vulputate quisque nulla eget nibh imperdiet cras diam. Blandit cursus posuere tempus, sem enim, vehicula facilisi. Sollicitudin feugiat aliquet augue amet neque.</p>
           </div>
@@ -57,7 +36,7 @@
         </article>
 
         <figure>
-          <p>23</p>
+          <p></p>
         </figure>
       </section>
     </main>
@@ -87,8 +66,6 @@
         var figureMarginTop = (window.innerHeight - figureHeight) / 2;
 
         figure
-          .style("height", 600 + "px")
-          .style("width", 800 + "px")
           .style("top", 50 + "px");
 
         // 3. tell scrollama to update new element dimensions
@@ -129,7 +106,7 @@
         scroller
           .setup({
             step: "#scrolly article .step",
-            offset: 0.03,
+            offset: 0.05,
             debug: false
           })
           .onStepEnter(handleStepEnter);
