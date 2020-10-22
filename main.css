@@ -17,10 +17,11 @@ header {
 }
 
 content {
+  margin-top: 46px;
   margin-left: 250px;
   display: grid;
   grid-template-columns: 240px 240px 240px 240px;
-  grid-template-rows: 47px 75px auto;
+  grid-template-rows: auto;
   column-gap: 40px;
 }
 
@@ -39,6 +40,7 @@ h1 {
 }
 
 h2 {
+  display: inline-block;
   grid-column-start: 1;
   grid-column-end: 5;
   font-size: 20px;
@@ -46,7 +48,7 @@ h2 {
   line-height: 26px;
   color: #202020;
   margin-top: 0;
-  margin-bottom: 2px;
+  margin-bottom: 44px;
 }
 
 h3 {
@@ -73,6 +75,13 @@ a:hover {
 .logo {
   height: 70px;
   margin-top: 46px;
+}
+
+
+
+/* Main Page */
+.empty {
+  background-color: #fafafa;
 }
 
 
