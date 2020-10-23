@@ -54,8 +54,12 @@ h2 {
 h3 {
   margin: 0;
   font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+h3 + p {
+  margin-top: 0;
 }
 
 p {
@@ -80,10 +84,46 @@ a:hover {
 
 
 /* Main Page */
-.empty {
+.cover {
   background-color: #fafafa;
+  margin-bottom: 100px;
 }
 
+#kursk {
+  background-image: url("/img/kursk-cover.png");
+  height: 450px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) { 
+
+    #kursk {
+        background:url('/img/kursk-cover@2x.png') no-repeat top left;
+        background-size: 1080px 450px;
+    }
+}
+
+#kursk:hover {
+  background-image: url("/img/kursk-cover-hover.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) { 
+
+    #kursk:hover {
+        background:url('/img/kursk-cover-hover@2x.png') no-repeat top left;
+        background-size: 1080px 450px;
+    }
+}
+
+#zenit {
+  background-image: url("/img/zenit-cover.png");
+  height: 450px;
+}
+
+#zenit:hover {
+  background-image: url("/img/zenit-cover.png");
+}
 
 /* Projects */
 .project {
