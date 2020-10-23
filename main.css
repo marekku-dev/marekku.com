@@ -85,7 +85,6 @@ a:hover {
 
 /* Main Page */
 .cover {
-  background-color: #fafafa;
   margin-bottom: 100px;
 }
 
@@ -101,19 +100,25 @@ a:hover {
         background:url('/img/kursk-cover@2x.png') no-repeat top left;
         background-size: 1080px 450px;
     }
-}
-
-#kursk:hover {
-  background-image: url("/img/kursk-cover-hover.png");
-}
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) { 
 
     #kursk:hover {
         background:url('/img/kursk-cover-hover@2x.png') no-repeat top left;
         background-size: 1080px 450px;
     }
+
+    #zenit {
+        background:url('/img/zenit-cover@2x.png') no-repeat top left;
+        background-size: 540px 450px;
+    }
+
+    #zenit:hover {
+        background:url('/img/zenit-cover-hover@2x.png') no-repeat top left;
+        background-size: 540px 450px;
+    }
+}
+
+#kursk:hover {
+  background-image: url("/img/kursk-cover-hover.png");
 }
 
 #zenit {
