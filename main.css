@@ -89,32 +89,8 @@ a:hover {
 }
 
 #kursk {
-  background-image: url("/img/kursk-cover.png");
+  background-image: url("/img/kursk-cover.svg");
   height: 450px;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) { 
-
-    #kursk {
-        background:url('/img/kursk-cover@2x.png') no-repeat top left;
-        background-size: 1080px 450px;
-    }
-
-    #kursk:hover {
-        background:url('/img/kursk-cover-hover@2x.png') no-repeat top left;
-        background-size: 1080px 450px;
-    }
-
-    #zenit {
-        background:url('/img/zenit-cover@2x.png') no-repeat top left;
-        background-size: 540px 450px;
-    }
-
-    #zenit:hover {
-        background:url('/img/zenit-cover-hover@2x.png') no-repeat top left;
-        background-size: 540px 450px;
-    }
 }
 
 #kursk:hover {
@@ -122,13 +98,25 @@ a:hover {
 }
 
 #zenit {
-  background-image: url("/img/zenit-cover.png");
+  background-image: url("/img/zenit-cover.svg");
   height: 450px;
 }
 
 #zenit:hover {
-  background-image: url("/img/zenit-cover.png");
+  background-image: url("/img/zenit-cover.svg");
+  cursor: pointer;
 }
+
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) { 
+
+    #kursk:hover {
+        background:url('/img/kursk-cover-hover@2x.png') no-repeat top left;
+        background-size: 1080px 450px;
+    }
+}
+
 
 /* Projects */
 .project {
