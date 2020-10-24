@@ -3,7 +3,7 @@ body {
   width: 1360px;
   overflow-x: hidden;
   margin: 0 auto;
-  font-family: Manrope;
+  font-family: Manrope, Sans-serif;
   color: #202020;
   font-size: 14px;
   line-height: 22px;
@@ -110,6 +110,7 @@ a:hover {
 }
 
 .news {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -124,10 +125,51 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   font-weight: 600;
+  opacity: 0;
 }
 
 .news-link a {
   color: #E3533F;
+}
+
+
+.mask-top {
+  position: absolute;
+  top:-2px;
+  right:0px;
+  width:50%;
+  height: 2px;
+  background-color:#fff;
+  transform-origin: top right;
+  transition: transform .5s;
+}
+
+.mask-bottom {
+  position: absolute;
+  bottom:-2px;
+  left:0px;
+  width:50%;
+  height: 2px;
+  background-color:#fff;
+  transform-origin: top left;
+  transition: transform .5s;
+}
+
+.news:hover .mask-top {
+  transform: scale(0, 1);
+  transform-origin: top right;
+  transition: transform .5s;
+}
+
+.news:hover .mask-bottom {
+  transform: scale(0, 1);
+  transform-origin: top left;
+  transition: transform .5s;
+}
+
+.news:hover .news-link {
+  opacity: 1;
+  transition: opacity .5s;
 }
 
 
