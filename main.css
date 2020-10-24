@@ -94,7 +94,7 @@ a:hover {
 }
 
 #kursk:hover {
-  background-image: url("/img/kursk-cover-hover.png");
+  background-image: url("/img/kursk-cover.svg");
 }
 
 #zenit {
@@ -104,18 +104,8 @@ a:hover {
 
 #zenit:hover {
   background-image: url("/img/zenit-cover.svg");
-  cursor: pointer;
 }
 
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) { 
-
-    #kursk:hover {
-        background:url('/img/kursk-cover-hover@2x.png') no-repeat top left;
-        background-size: 1080px 450px;
-    }
-}
 
 
 /* Projects */
