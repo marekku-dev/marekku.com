@@ -99,16 +99,21 @@ a:hover {
 
 #zenit {
   background-image: url("/img/zenit-cover.svg");
-  height: 450px;
+  height: 520px;
+  transition: transform .5s ease-in-out;
 }
 
 #zenit:hover {
   background-image: url("/img/zenit-cover.svg");
+  transform: rotate(15deg);
+  transition: transform .5s ease-in-out;
 }
 
 .news {
-  border-left: 2px solid #000;
-  padding-left: 12px;
+  height: 220px;
+  margin-bottom: 40px;
+  background-color: #fafafa;
+  padding: 10px;
 }
 
 
