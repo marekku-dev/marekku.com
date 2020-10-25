@@ -24,14 +24,27 @@ content {
   column-gap: 40px;
 }
 
+article {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 40px;
+  max-width: 240px;
+}
+
+.row {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  grid-template-rows: auto;
+  column-gap: 40px;
+  margin-bottom: 120px;
+}
+
 footer {
   grid-column-start: 1;
   grid-column-end: 5;
   height: 120px;
-}
-
-article {
-  margin: 0;
 }
 
 h1 {
@@ -43,7 +56,7 @@ h2 {
   grid-column-start: 1;
   grid-column-end: 5;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 26px;
   color: #202020;
   margin-top: 0;
@@ -171,6 +184,27 @@ a:hover {
 }
 
 
+/* Project page */
+.chapter-title {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.big-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
 
 /* Projects */
 .project {
@@ -258,7 +292,7 @@ a:hover {
 .linkMain {
   margin-top: 46px;
   color: #202020;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 18px;
 }
@@ -388,13 +422,6 @@ a:hover {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-}
-
-article {
-  position: relative;
-  margin-top: 50px;
-  margin-left: 40px;
-  max-width: 240px;
 }
 
 figure {
