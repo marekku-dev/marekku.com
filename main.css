@@ -205,6 +205,14 @@ img {
   line-height: 28px;
 }
 
+.credits p {
+  margin: 4px 0;
+}
+
+.credit-position {
+  color: #b2b2b2;
+}
+
 
 /* Projects */
 .project {
