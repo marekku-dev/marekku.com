@@ -1,8 +1,8 @@
 body {
-  display: flex;
   width: 1360px;
   overflow-x: hidden;
   margin: 0 auto;
+  padding-top: 50px;
   font-family: Manrope, Sans-serif;
   color: #202020;
   font-size: 14px;
@@ -17,7 +17,6 @@ header {
 }
 
 content {
-  margin-top: 46px;
   margin-left: 250px;
   display: grid;
   grid-template-columns: 240px 240px 240px 240px;
@@ -78,7 +77,6 @@ a:hover {
 
 .logo {
   height: 70px;
-  margin-top: 46px;
 }
 
 
