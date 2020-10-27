@@ -85,4 +85,8 @@ li {
 	margin-bottom: 20px;
 }
 
+.cover {
+	background-size: cover;
+}
+
 }
