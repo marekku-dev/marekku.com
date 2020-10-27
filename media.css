@@ -7,7 +7,43 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0 16px 0;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0;
+}
+
+.linkMain {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.linksOuter {
   display: none;
+  position: static;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.menuProjects {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 content {
@@ -21,9 +57,32 @@ h2 {
   margin: 20px 0;
 }
 
+li {
+	display: inline;
+	margin-left: 12px;
+}
+
 .row {
   display: flex;
   flex-direction: column;
+}
+
+.empty {
+  display: none;
+}
+
+#chartDaily {
+	overflow: scroll;
+	width: 100%;
+}
+
+#chartHeatmap {
+	overflow: scroll;
+	width: 100%;
+}
+
+.micro {
+	margin-bottom: 20px;
 }
 
 }
