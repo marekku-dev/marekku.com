@@ -108,22 +108,25 @@ a:hover {
 #kursk {
   background-image: url("/img/kursk-cover.svg");
   height: 450px;
+  transition: transform .5s ease-out;
 }
 
 #kursk:hover {
   background-image: url("/img/kursk-cover.svg");
+  transform: translate(10px, 0);
+  transition: transform .5s ease-out;
 }
 
 #zenit {
   background-image: url("/img/zenit-cover.svg");
   height: 520px;
-  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-out;
 }
 
 #zenit:hover {
   background-image: url("/img/zenit-cover.svg");
-  transform: rotate(15deg);
-  transition: transform .5s ease-in-out;
+  transform: rotate(5deg);
+  transition: transform .5s ease-out;
 }
 
 .news {
