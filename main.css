@@ -16,6 +16,13 @@ header {
   padding: 5px;
 }
 
+footer {
+  position: fixed;
+  bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -45,12 +52,6 @@ article {
   grid-template-rows: auto;
   column-gap: 40px;
   margin-bottom: 120px;
-}
-
-footer {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  height: 120px;
 }
 
 h1 {
@@ -325,13 +326,6 @@ img {
 .linkProject.active {
   color: #E3533F;
   font-weight: 500;
-}
-
-.linksOuter {
-  position: fixed;
-  bottom: 20px;
-  font-size: 14px;
-  line-height: 22px;
 }
 
 .menuProjectTitle {

@@ -9,7 +9,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 		<script src="https://d3js.org/d3.v4.js"></script>
 		<script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
-		<script> $(function(){$("header").load("/header.html");});</script>
+		<script>
+			$(function(){$("header").load("/header.html");});
+			$(function(){$("footer").load("/footer.html");});
+		</script>
 		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
 		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css" rel="stylesheet" />
 
@@ -39,9 +42,9 @@
 
 			<h2 style="margin-top: 64px; margin-bottom: 32px">Orders spreading</h2>
 			<div id="chartMap" class="graph col-4"></div>
-
-			<footer></footer>
 		</content>
+
+		<footer></footer>
 
 		<script type='text/javascript' src="js/sparklineOrders.js"></script>
 		<script type='text/javascript' src="js/sparklineMoney.js"></script>

@@ -15,6 +15,11 @@ header {
   background-color: #fff;
 }
 
+footer {
+  position: static;
+  margin-top: 240px;
+}
+
 .header-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -60,6 +65,11 @@ h2 {
 li {
 	display: inline;
 	margin-left: 12px;
+}
+
+footer li {
+	margin-left: 0;
+	margin-right: 12px;
 }
 
 .row {
