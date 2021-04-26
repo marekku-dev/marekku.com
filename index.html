@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
-		<title>marekku – Graphic Designer</title>
+		<title>marekku – Graphic & Information Designer</title>
 		<script src="https://d3js.org/d3.v4.js"></script>
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="media.css">
-		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-		<script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<script src='/js/jquery-3.5.0.min.js'></script>
 		<script>
 			$(function(){$("header").load("/header.html");});
 			$(function(){$("footer").load("/footer.html");});
@@ -20,36 +20,55 @@
 	<body>
 		<header></header>
 
-		<content>
-			<div class="col-4"><a href="/kursk"><div class="cover" id="kursk"></div></a></div>
-			<div class="col-2 cover" id="zenit"></div>
-			<div></div>
-			<div>
-				<div class="news">
-					<div class="mask-top"></div>
-					<div class="mask-bottom"></div>
-					<div class="news-text">
-						<h3>Darts</h3>
-						<p>Updated brackets  and results</p>
-					</div>
-					<div class="news-link">
-						<a href="/darts">read</a>
-					</div>
+		<main>
+			<a href="/kursk" class="col-6 cover" id="kursk">
+				<img src="/kursk/img/cover.svg">
+				<div class="cover__texts">
+					<h2>Kursk</h2>
+					<p class="cover__by">by infografika.agency</p>
 				</div>
+			</a>
 
-				<div class="news">
-					<div class="mask-top"></div>
-					<div class="mask-bottom"></div>
-					<div class="news-text">
-						<h3>Ikigai</h3>
-						<p>Updated graphs</p>
-					</div>
-					<div class="news-link">
-						<a href="/ikigai">read</a>
-					</div>
+			<div class="col-3 cover" id="zenit">
+				<img src="/zenit/img/cover.svg">
+				<div class="cover__texts">
+					<h2>Zenit-84</h2>
+					<p class="cover__by">by infografika.agency</p>
 				</div>
 			</div>
-		</content>
+
+			<a href="/ikigai" class="col-3 cover" id="ikigai">
+				<img src="/ikigai/img/cover.svg">
+				<div class="cover__texts">
+					<h2>Ikigai</h2>
+					<p class="cover__by">by infografika.agency</p>
+				</div>
+			</a>
+
+			<div class="col-2 cover" id="shu">
+				<img src="/shu/img/cover.svg">
+				<div class="cover__texts">
+					<h2>SHU</h2>
+					<p class="cover__by">by adept.works</p>
+				</div>
+			</div>
+
+			<div class="col-2 cover" id="culturafest">
+				<img src="/culturafest/img/cover.svg">
+				<div class="cover__texts">
+					<h2>CULTURAFEST</h2>
+					<p class="cover__by">by adept.works</p>
+				</div>
+			</div>
+
+			<div class="col-2 cover" id="russiantour">
+				<img src="/russian-tour/img/cover.svg">
+				<div class="cover__texts">
+					<h2>Russian Tour</h2>
+					<p class="cover__by">by marekku</p>
+				</div>
+			</div>
+		</main>
 
 		<footer></footer>
 	</body>

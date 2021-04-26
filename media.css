@@ -2,28 +2,26 @@
 
 body {
   overflow-x: hidden;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
 header {
   position: fixed;
   top: 0;
-  width: 95%;
+  height: 32px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   background-color: #fff;
+  border-bottom: 2px solid #404040;
+  z-index: 2;
 }
 
 footer {
   position: static;
-  margin-top: 240px;
-}
-
-.header-wrapper {
-	display: flex;
-	justify-content: space-between;
-	padding: 10px 0 16px 0;
+  margin-top: 120px;
+  margin-bottom: 24px;
 }
 
 .logo {
