@@ -15,6 +15,7 @@ main {
   grid-gap: 2px;
   background-color: #202020;
   border: solid 2px #202020;
+  border-bottom: none;
 }
 
 section {
@@ -52,6 +53,7 @@ footer {
   height: 100px;
   font-size: 14px;
   line-height: 22px;
+  border-top: solid 2px #202020;
 }
 
 content {
@@ -193,7 +195,8 @@ img {
 }
 
 .project__texts {
-  padding: 24px 0;
+  padding: 24px 0 0 8px;
+  border-left: solid 2px #202020;
 }
 
 .project__title {
@@ -215,7 +218,7 @@ img {
 }
 
 .project__credits div {
-  border-top: solid 1px #202020;
+  border-top: solid 2px #202020;
   padding-top: 4px;
 }
 
